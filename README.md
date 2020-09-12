@@ -20,7 +20,7 @@ At the beginning of the discussion, I started from Newton's law, concept of pote
 
 Lecture Video:
 
-[<img src="yt_logo_rgb_light.png" width="100">](https://youtu.be/0G_V55hDbfU)
+[<img src="yt_logo_rgb_light.png" width="100">](https://youtu.be/vdv5kXVna0I)
 
 ## Lecture 2
 The first one third part of the discussion went into a different general topic of interest, talking about the wave equaitons in ideal compressible fluids, and relating them to plasmas crudely. In the middle part, I showed how easy it was to move to three dimensional from the two dimensional baby code that we developed in the last week. Then at the end, I talked about the periodic, reflecting boundary condition, implementation of different potentials (all binary), few references on normalization, touched upon few numerical caveats, quick idea about configurational temperature, time solvers for velocity dependent forces or in presence of magnetic fields and finally briefly outlined OpenMP or OpenACC parallelization. Thankfully, I did not have to work out the OpenMP and OpenACC architechture of the three dimensional version of the code explicitly. It was presented as a surprise gift to me on the next day, which was incidentally "teacher's day"! A python implementation of the logic and visualization tools also came-up within a few days after this discussion. I really felt happy from the bottom of my heart! 
