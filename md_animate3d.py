@@ -9,14 +9,15 @@ from mpl_toolkits import mplot3d
 # import plotly.graph_objects as go
 #========= Configuration ===========
 show_anim = True
-interval = 0.1#in seconds
+save_anim = True
+interval = 0.01#in seconds
 datadt = 10
 DIR ="data"
 Lx = 10.0
 Ly = 10.0
 Lz = 10.0
 
-tmax = 100.0
+tmax = 50.0
 dt   = 0.010
 Nt   = round(tmax/dt)
 
@@ -43,4 +44,13 @@ if (show_anim == True):
     fig = plt.figure(figsize=(6, 6))
     ax1 = plt.axes(projection ="3d")
     ani = animation.FuncAnimation(fig,animate,frames=len(data_num),interval=interval*1e+3,blit=False)
+    # ani.save('phase_space.gif',writer='imagemagick')
     plt.show()
+    if(save_anim == True):
+        try:
+            Writer = animation.writers['ffmpeg']
+            writer = Writer(fps=(1/interval), metadata=dict(artist='Me'), bitrate=1800)
+        except RuntimeError:
+            print("ffmpeg not available trying ImageMagickWriter")
+            writer = animation.ImageMagickWriter(fps=(1/interval))
+        ani.save('animation.mp4')
