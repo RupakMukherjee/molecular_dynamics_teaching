@@ -1,4 +1,3 @@
 # Lecture 1
 
 At the beginning of the discussion, I started from Newton's law, concept of potential, classical collision / scattering of particles, simple harmonic motion, few numerical ODE solvers and delineated the basic molecular dynamics algorithm explicitly by hand. Starting from the idea of numerically solving the motion of one classical point particle in one dimension, I generelized to multiple classical point particles in one dimension and further towards multiple dimensions, explicitly working out the individual quantities (force, velocity etc.) by hand. The natural extension for multi-particle and in multiple dimensions is stressed in the rest of the part of the discussion while I was actually implementing it in the form of a baby test-code. Further I showed some movies of two dimensional and three dimensional simulation stressing few open problems in mind.
-
