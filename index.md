@@ -14,6 +14,7 @@ A series of lectures (in [Hinglish](https://en.wikipedia.org/wiki/Hinglish)) are
 [![Webinar on "Molecular Dynamics Simulation"](http://img.youtube.com/vi/vdv5kXVna0I/0.jpg)](https://www.youtube.com/embed/videoseries?list=PLbX_ZyxeXxSJWJw99-baWL3Xk5qoHKfGM)
 
 # Lecture Description
+
 [Lecture 1](lecture1.md) | [Lecture 2](lecture2.md)
 ------------ | ------------- 
 [YouTube](https://youtu.be/vdv5kXVna0I)      | [YouTube](https://youtu.be/gghzMaa8pRA)
