@@ -1,3 +1,9 @@
+# Code Description
+
+## md2d.f95
+
+Simple two dimensional molecular dynamics code for point particles interacting via coulomb potential.
+
 ```fortran
 program molecular_dynamics_2d
 implicit none
