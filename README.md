@@ -1,6 +1,6 @@
 Molecular Dynamics Simulation
 ==============================
-A repository of molecular dynamics algorithm for teaching purpose.
+A repository of molecular dynamics algorithm for teaching purpose. The corresponding webpage is [here](https://rupakmukherjee.github.io/molecular-dynamics-crash-course/)
 
 Instructor: [Dr. Rupak Mukherjee](https://github.com/RupakMukherjee)
 
