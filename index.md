@@ -21,8 +21,8 @@ A series of lectures (in [Hinglish](https://en.wikipedia.org/wiki/Hinglish)) are
 
 # Code Description
 
-## md2d.f95
+## [md2d.f95](code/md2d.md)
 Simple two dimensional molecular dynamics code for point particles interacting via coulomb potential.
 
-## md3d.f95
+## [md3d.f95](code/md3d.md)
 Simple three dimensional molecular dynamics code for point particles interacting via coulomb potential.
